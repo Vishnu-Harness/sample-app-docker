@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sample_app_docker_1684250518441-push-trigger-input-set
+  identifier: Build_sample_app_docker_1684250518441pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample
+  pipeline:
+    identifier: Build_sample_app_docker_1684250518441
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
