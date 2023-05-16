@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sample_app_docker_1684249652838-pr-trigger-input-set
+  identifier: Build_sample_app_docker_1684249652838prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sampleappdocker
+  pipeline:
+    identifier: Build_sample_app_docker_1684249652838
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
