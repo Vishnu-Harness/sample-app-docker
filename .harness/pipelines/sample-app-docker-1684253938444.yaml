@@ -50,7 +50,7 @@ pipeline:
                     connectorRef: vish_con
                     repo: vishnuharness/sample
                     tags:
-                      - <test2>
+                      - test2
           platform:
             arch: Amd64
             os: Linux
