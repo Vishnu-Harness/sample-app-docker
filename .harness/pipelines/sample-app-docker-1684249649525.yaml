@@ -48,7 +48,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: account.harnessImage
-                    repo: Vishnu-Harness/sample-app-docker
+                    repo: vishnuharness/sample-app-docker
                     tags:
                       - <pipeline>
           platform:
