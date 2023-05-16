@@ -42,6 +42,15 @@ pipeline:
                       tags: latest
                   timeout: ""
                   type: Plugin
+              - step:
+                  type: BuildAndPushDockerRegistry
+                  name: BuildAndPushDockerRegistry_1
+                  identifier: BuildAndPushDockerRegistry_1
+                  spec:
+                    connectorRef: vish_con
+                    repo: vishnuharness/sample
+                    tags:
+                      - <test2>
           platform:
             arch: Amd64
             os: Linux
